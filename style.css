@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main{
+main {
     width: 100%;
     height: 100vh;
     background-color: #171f24;
 }
 
-.container{
+.container {
     width: 750px;
     height: 430px;
     display: flex;
@@ -24,12 +24,13 @@ main{
     border: 1px solid rgba(255, 255, 255, 0.356);
 }
 
-.section-one{
+.section-one {
     width: 50%;
     height: 100%;
     left: 0;
 }
-.section-one>img{
+
+.section-one>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -37,30 +38,35 @@ main{
     border-top-left-radius: 15px;
 
 }
-.section-two{
+
+.section-two {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.section-two>h2{
+
+.section-two>h2 {
     color: white;
     font-size: 35pt;
     margin: 15px 20px;
     text-align: center;
     text-shadow: 5px 5px 1px #6819a9;
 }
-.section-two>p{
+
+.section-two>p {
     margin: 25px 20px;
     font-size: 25pt;
 }
-.section-two>span{
+
+.section-two>span {
     text-align: center;
     color: white;
-    margin: 15px ;
+    margin: 15px;
 }
-.section-two>button{
+
+.section-two>button {
     width: 70%;
     height: 60px;
     margin: auto;
